@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-white font-sans text-slate-800 antialiased;
+  word-break: keep-all; /* 한글 단어 중간에서 줄바꿈되지 않도록 */
+}
